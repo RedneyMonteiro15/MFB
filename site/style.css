@@ -1,0 +1,375 @@
+body{
+    background: #FFFFFF url(mg01.jpg) repeat-x top left; /*coloca o fundo a branco, com uma a imagem no fundo, para não se repetir no eixo x, ficar no topo e a direita*/
+    font-family: Arial, Helvetica, sans-serif; /*Mete todo o texto do site no formate de texto Arial*/
+    font-size: 13px; /*Coloca o texto no tamanho 13px*/
+    margin: 20px 0px 0px 0px;/*coloca a pagina com uma margin no topo de 20px*/
+    padding: 0px; /*coloca a pagina com uma padding 0px, espaçamento interno*/
+    color: #757575; /*Coloca todo o texto da pagina na cor #757575*/
+
+}
+
+/*Vamos configurar todas as tags h1, h2 e h3*/
+h1, h2, h3{
+    color: #313638;
+    letter-spacing: -1px; /*coloca o espaçamento entre as letras em -1px*/
+}
+
+/*Vamos configurar o h1, h2, a que esta dentro do h2 e  a que esta dentro do h1*/
+h1, h1 a, h2, h2 a{
+    text-decoration: none; /*coloca o texto em não sublinhado*/
+}
+
+/*Vamos cofigurar o h1 para quando passar o cursor por cima*/
+h1 a:hover{
+    text-decoration: underline; /*sublinha o texto*/
+}
+
+/*Vamos configurar o h1*/
+h1{
+    font-size: 38px;/*o texto vai ficar com 38px*/
+}
+
+/*Vamos configurar o h2*/
+h2{
+    font-size: 28px;/*o texto vai ficar com 28px*/
+    font-weight: norma; /*coloca o texto normal, pra não ficar em negrito*/
+}
+
+/*Vamos configurar o h3*/
+h3{
+    font-size: 16px; /*o texto vai ficar com 16px*/
+}
+
+/*para quando for algum paragrafo, ou uma lista não ordenada ou uma lista ordenada*/
+p, ul, ol{
+    /*coloca com uma margem de 1.5em*/
+    margin-top: 1.5em;
+    line-height: 190%;
+}
+
+/*para qualquer lista não ordenada ou uma lista ordenada*/
+ul, ol{
+    /*uma margem a direita de 3em*/
+    margin-left: 3em;
+}
+
+blockquote{
+    margin-left: 3em;
+    margin-left: 3em;
+}
+
+/*vamos configurar tudo que for um link*/
+a{
+    color: #C11A00;
+}
+
+/*vamos configurar para quando passar o cursor por cima do link*/
+a:hover{
+    text-decoration: none; /*para o texto ficar em não sublinhado*/
+}
+
+a img{
+    border: none; /*a imagem fica sem borda*/
+}
+
+img.left{
+    float: left; /*para flutuar para esquerda*/
+    margin-right: 20px; /*com uma margem a direita de 20px*/
+}
+
+img.right{
+    float: right; /*para flutuar para a direita*/
+    margin-right: 20px; /*com uma margem a direita de 20px*/
+}
+
+/*para quando for um hr*/
+hr{
+    display: none; /*não apareca*/
+}
+
+/*conformatar o cabeçalho*/
+#header{
+    width: 960px; /*Uma largura de 960px*/
+    height: 453px; /*uma altura de 453px*/
+    margin: 0 auto; /*sem margin em cima e o restante automatico*/
+}
+
+/* LOGO */
+/*Vamos configurar a nossa div logo*/
+#logo{
+    width: 754px; /*tamanho de 754px*/
+    height: 120px; /*altura de 120px*/
+    margin: 0px auto; /*sem margin no topo e as restantes automaticas, o auto coloca a div centralizada*/
+    padding: 2px; /*um espaçamento interno de 2px*/
+}
+
+/*Vamos configurar o h1 e o h2 da logo*/
+#logo h1, #logo h2{ 
+    /*vai ficar com margem a zero e padding a zero e o texto todo em maiscula*/
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+}
+
+/*Vamos configurar o h1 da logo*/
+#logo h1{ 
+    padding: 40px 5px 0px 20px; /*coloca o texto com um espaçamento no topo de 40px, a direita de 5px, em baixo de 0px e a esquerda de 20px*/
+    font-size: 36px; /*Coloca o texto no tamnho de 36px*/
+    font-family: Arial, Helvetica, sans-serif; /*mete o texto em arial*/
+    font-weight: bold; /*mete o texto em negrito*/
+    color: #313638; /*coloca o texto na cor #313638*/
+}
+
+/*Vamos configurar o h2 da logo*/
+#logo h2{ 
+    padding: 0px 0px 0px 25px; /*coloca o texto com um espaçamento no topo de 0px, a direita de 0px, em baixo de 0px e a esquerda de 25px*/
+    font-size: 10px; /*Coloca o texto no tamnho de 10px*/
+    font-family: Arial, Helvetica, sans-serif; /*mete o texto em arial*/
+    font-weight: bold; /*mete o texto em negrito*/
+    color: #808080; /*coloca o texto na cor #808080*/
+}
+
+#logo p{
+    margin: 0; /*sem margin, margem a zero*/
+    padding: 0 0 0 20px; /*20px de espaçamento interno a esquerda*/
+    line-height: normal; /*normal*/
+    font-size: 1.2em; /*com um tamanho de 1.2em*/
+    font-weight: bold; /*a negrito*/
+}
+
+#splash{
+    /*uma largura de 754px, uma altura de 266px, uma espaçamento interna em baixo de 3px, a imagem no fundo não repetir a esquerda e no topo*/
+    width: 754px;
+    height: 226px;
+    padding-bottom: 3px;
+    background: url(img04.jpg) no-repeat left top;
+}
+
+/* Header */
+
+#header{
+    width: 754px; 
+    margin: 0 auto;
+}
+
+#menu{
+    height: 60px;
+    width: 754px;
+    padding-left: 20px;
+    background: url(img02.jpg) no-repeat left top;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu ul{
+    /*sem padding, sem margem, sem list-style (circulo)*/
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: normal;
+}
+
+/*para cada li, item deve flutuar para a esquerda, para ficar numa linha só*/
+#menu li{
+    float: left;
+}
+
+#menu a{
+    /*para os link ficarem em bloco, flutuar a esquerda, espaçamento de 20px em cim 30px a direita 15px em baixo e 18px a esquerda,
+    uma margem a direita de 1px, uma altura de 30px, e uma imagem no fundo para não se repetir, ficar a esquerda e a 35%,
+    o texto em não sublinhado, em letras maisculas, com um tamanho de 10px e na cor brancxa*/
+    display: block;
+    float: left;
+    padding: 20px 30px 15px 18px;
+    margin-right: 1px;
+    height: 30px;
+    background: url(img03.gif) no-repeat left 35%;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #FFFFFF;
+}
+
+/*ao passar o cursor por cima de um link dentro do menu, fica na cor branca*/
+#menu a:hover{
+    color: #FFFFFF;
+}
+
+/*para o link que tem a classe, pagina principal*/
+#menu .current_page_item a{
+    background: none; /*sem = none*/
+    color: #FFFFFF;
+}
+
+#wrapper{
+    width: 754px;
+    margin: 0 auto;
+    background: url(img05.jpg) repeat-x left top;
+}
+
+#page{
+    width: 754px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+#content{
+    /*A div content deve flutuar para a direita, para qua as div fiquem lado a lado*/
+    float: right;
+    /*um largura de 500px*/
+    width: 500px;
+}
+
+/*coloca uma border-bottom, uma linha em cima em dotted(traçejado) na espessura de 1px*/
+.post .title{
+    margin: 0;
+    padding: 10px 20px 10px 10px;
+    border-bottom: 1px dotted #D6C9BF;
+}
+
+/*quando a classe title estiver em um h1*/
+.post h1.title {
+    /*um paddind de 5px(em cima) 0(a direita)  0(em baixo) 50px(a esquerda), uma altura de 40px, um tamanho de 2.4em, o texto em minuscula*/
+	padding: 5px 0  0 50px;
+	height: 40px;
+	font-size: 2.4em;
+	text-transform: lowercase;
+}
+
+/*para quando passar o cursor por cima*/
+.post .title a:hover {
+	text-decoration: none; /*deixar o texto em não sublinhado*/
+}
+
+/*configurar a div .entry(classe)*/
+.post .entry {
+	margin: 0px; /*sem margem e com um padding de 20px*/
+	padding: 20px 20px;
+}
+
+/*configurar a div .meta(classe)*/
+.post .meta {
+	height: 35px;
+	margin: 15px 0 20px 0;
+	padding: 15px 0 0 20px;
+	line-height: normal;
+	background: url(img05.jpg) repeat-x left top;
+}
+
+/*para um link pertencente a uma tag da classe post*/
+.post a {
+	color: #31363B;
+}
+
+/* Sidebar */
+
+/*a div com o id sidebar deve flutuar para a esquerda*/
+#sidebar {
+	float: left;
+}
+
+/*as listas não ordenadas, deve estar sem paddding e sem margem, sem list-style(sem numeração)*/
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+}
+
+
+/*os item devem ter uma margem a baixo de 40px*/
+#sidebar li {
+	margin-bottom: 40px;
+}
+
+/*quando as sublistas não ordenadas, devem ter um pading a esquerda de 25px*/
+#sidebar li ul {
+	padding-left: 25px;
+}
+
+
+#sidebar li li {
+	margin: 0;
+	padding: 5px 10px;
+	border-bottom: 1px dotted #D6C9BF;
+}
+
+#sidebar li h2 {
+	margin: 0 0 1em 0;
+	padding: 15px 0  5px 25px;
+	height: 30px;
+	text-transform: lowercase;
+	font-size: 28px;
+	letter-spacing: -1px;
+}
+
+#sidebar li p {
+	padding: 0 20px;
+}
+
+/* Calendar */
+
+#sidebar #calendar {
+	padding: 0;
+}
+
+#calendar caption {
+}
+
+#calendar table {
+	width: 100%;
+	padding: 0 20px;
+	text-align: center;
+}
+
+#calendar thead th {
+	border-bottom: 2px solid #F2F2F2;
+	border-top: 1px solid #F2F2F2;
+}
+
+#calendar tbody td {
+	padding: 5px 0;
+	border-bottom: 1px solid #F2F2F2;
+}
+
+#calendar tfoot td {
+	border-top: 1px solid #F2F2F2;
+}
+
+#calendar #prev {
+	text-align: left;
+}
+
+#calendar #next {
+	text-align: right;
+}
+
+#calendar a {
+	font-weight: bold;
+}
+
+/* Footer */
+
+#footer {
+	clear: both;
+	width: 754px;
+	height: 50px;
+	margin: 0 auto;
+	background: #FFFFFF url(img01.jpg) repeat-x top left;
+}
+
+#footer p {
+	margin: 0;
+	line-height: normal;
+	padding: 35px 15px;
+}
+
+#footer a {
+}
+
+#footer .legal {
+	float: left;
+}
+
+#footer .credit {
+	float: right;
+}
